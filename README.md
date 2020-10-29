@@ -2,6 +2,20 @@
 
 Download from [ImageNet](http://image-net.org/) Image URLs
 
+
+https://gist.github.com/xkumiyu/dd200f3f51986888c9151df4f2a9ef30
+
+https://www.kumilog.net/entry/imagenet-download
+
+# Quick start using docker
+```
+$ cd /path/to/save/image-net
+$ git clone https://github.com/MojaX2/imagenet-downloader.git
+$ cd imagenet-downloader
+$ ./build.sh
+$ docker run -it --rm imagenet_downloader
+```
+
 # Preparation
 
 * Install Python Packages
